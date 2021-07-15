@@ -1,0 +1,32 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  font-size: 48px;
+  padding: 10px;
+  border: 1px dotted black;
+  margin: 10px auto 10px auto;
+  width: 50%;
+}
+
+button {
+  cursor: pointer;
+  font-size: 24px;
+  border: none;
+  margin: 20px;
+}
+
+.container {
+  margin: 50px auto 50px auto;
+  display: inline-grid;
+  height: 575px;
+  width: 575px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.cell {
+  outline: 1px solid black;
+}
